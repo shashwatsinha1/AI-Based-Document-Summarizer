@@ -79,3 +79,89 @@ DocMind/
 │   └── results.png
 │
 └── README.md
+
+# ⚙️ Installation Guide
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/docmind.git
+```
+
+---
+
+## 2️⃣ Move into Project Directory
+
+```bash
+cd docmind
+```
+
+---
+
+## 3️⃣ Create Virtual Environment
+
+### Windows
+
+```bash
+python -m venv venv
+```
+
+### Linux / Mac
+
+```bash
+python3 -m venv venv
+```
+
+---
+
+## 4️⃣ Activate Virtual Environment
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Linux / Mac
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+## 5️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# ▶️ Run the Project
+
+```bash
+python app.py
+```
+
+Server will start at:
+
+```bash
+http://127.0.0.1:5000
+```
+
+Open this URL in your browser.
+
+---
+
+# 📦 Requirements
+
+Your `requirements.txt` should contain:
+
+```txt
+flask>=3.0.0
+flask-cors>=4.0.0
+PyMuPDF>=1.23.0
+transformers
+torch
+```
